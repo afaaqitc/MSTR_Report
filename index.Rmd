@@ -14,7 +14,7 @@ source("/home/jdrk/Documents/MSTR/MSTR/mstr.R")
 ```
 
 ```{r,out.width="40%",echo=FALSE,warning=FALSE,message=FALSE,fig.align='center'}
-knitr::include_graphics("/home/jdrk/Documents/GitHub//MSTR_Report/Picture1.png")
+knitr::include_graphics("/home/jdrk/Documents/GitHub/MSTR_Report/Picture1.png")
 ```
 
 ```{r echo=FALSE,message=FALSE,warning=FALSE}
@@ -45,10 +45,10 @@ purchases_lvls_cht
 main_totals_gt
 ```
 
----
 
 ```{r echo=FALSE,message=FALSE,warning=FALSE,fig.align='center',fig.width=8,fig.height=3.5}
 main_totals_cht
+
 ```
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE}
@@ -62,8 +62,22 @@ etf_main_maps
 ---
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE}
+gbtc_summaries_gt
+```
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,fig.height=3.3,fig.width=7,fig.align='center'}
+gbtc_totals_cht
+```
+---
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+gbtc_totals_gt
+```
+
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
 ish_transactions_gt
 ```
+
 ---
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE}
@@ -104,8 +118,9 @@ cols_width(everything() ~ px(140)) |> fmt_currency(columns = c(BTC_Price,MSTR_Ad
 ---
 
 <center><font size = "+2" >**Report Link**</font></center>
-```{r,out.width="15%",fig.show='asis',echo=FALSE,message=FALSE,warning=FALSE,fig.align='center'}
-knitr::include_graphics("/home/jdrk/Documents/GitHub//MSTR_Report/rep.png")
+```{r,out.width="12%",fig.show='asis',echo=FALSE,message=FALSE,warning=FALSE,fig.align='center'}
+knitr::include_graphics("/home/jdrk/Documents/GitHub/MSTR_Report/rep.png")
+
 ```
 ---
 
