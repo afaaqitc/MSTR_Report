@@ -100,13 +100,6 @@ mi_gt
 
 ---
 
-```{r echo=FALSE,message=FALSE,warning=FALSE,fig.width=8,fig.height=4,fig.align='center'}
-mi_cht
-```
----
-
----
-
 ```{r echo=FALSE,message=FALSE,warning=FALSE}
 com_lines_gt
 ```
