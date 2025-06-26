@@ -1,0 +1,133 @@
+---
+title: <center>**MICROSTRATEGY BTC HOLDINGS.**</center>
+date: <center> <font size="+2">**`r format(Sys.Date(),'%B, %d %Y')`**</font> </center>
+output: html_document
+---
+
+```{r setup, include=FALSE,eval =TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+ 
+```
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+source("/home/jdrk/Documents/MSTR/MSTR/mstr.R")
+```
+
+```{r,out.width="40%",echo=FALSE,warning=FALSE,message=FALSE,fig.align='center'}
+knitr::include_graphics("/home/jdrk/Documents/GitHub/MSTR_Report/Picture1.png")
+```
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+main
+```
+---
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+main_yrs_gt
+```
+
+```{r fig.align='center',fig.height=3.5,fig.width=8,echo=FALSE,message=FALSE,warning=FALSE}
+main_yrs_btc_cht
+```
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+purchases_lvls_gt
+```
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,fig.height=3,fig.width=7,fig.align='center'}
+purchases_lvls_cht
+```
+---
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+main_totals_gt
+```
+
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,fig.align='center',fig.width=8,fig.height=3.5}
+main_totals_cht
+
+```
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+etf_main_gt
+```
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,fig.height=3.5,fig.width=8,fig.align='center'}
+etf_main_maps
+```
+---
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+gbtc_summaries_gt
+```
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,fig.height=3.3,fig.width=7,fig.align='center'}
+gbtc_totals_cht
+```
+---
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+gbtc_totals_gt
+```
+
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+ish_transactions_gt
+```
+
+---
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+countries_lines_gt
+```
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE,fig.width=9,fig.height=4,fig.align='center'}
+
+countries_lines_cht
+
+```
+
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+mi_gt
+
+```
+
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+com_lines_gt
+```
+
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+data.frame(Date= format(Sys.Date(),"%d %B %y"),BTC_Price=btc_price,
+tq_get("MSTR") |> arrange(desc(date)) |> select(8) |> head(1) |> rename(MSTR_Adj=adjusted))|> gt() |> tab_style(style =list(cell_borders(style = "solid"),cell_text(align = "center",weight = "bold")) ,locations =cells_body() ) |> 
+  tab_style(style =list(cell_fill(color="#2E3436"),cell_text(color="white",align = "center",weight = "bold")) ,locations = cells_column_labels()) |> 
+cols_width(everything() ~ px(140)) |> fmt_currency(columns = c(BTC_Price,MSTR_Adj),currency = "USD",decimals = 2)
+
+```
+
+---
+
+<center><font size = "+2" >**Report Link**</font></center>
+```{r,out.width="12%",fig.show='asis',echo=FALSE,message=FALSE,warning=FALSE,fig.align='center'}
+knitr::include_graphics("/home/jdrk/Documents/GitHub/MSTR_Report/rep.png")
+
+```
+---
+
+```{r,out.width="10%",fig.align='center',echo=FALSE,message=FALSE,warning=FALSE}
+knitr::include_graphics("/home/jdrk/Documents/GitHub/MSTR_Report/Untitled 1 (copy).png")
+```
+
+
+
+
+
