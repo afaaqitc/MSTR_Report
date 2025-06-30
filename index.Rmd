@@ -86,7 +86,23 @@ etfs_cht
 
 
 <center><font size="+1" color="#660708">
-**GBTC Extracting BTC Sold ,Bought QTy & Amounts By Years**
+**IBIT BTC ETF Purchases & Sold Quantities.**
+</font></center>
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+IBIT_Main
+```
+
+---
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+ish_purchases_gt
+```
+
+---
+
+<center><font size="+1" color="#660708">
+**GBTC BTC ETF Purchases & Sold Quantities.**
 </font></center>
 
 ```{r echo=FALSE,message=FALSE,warning=FALSE}
