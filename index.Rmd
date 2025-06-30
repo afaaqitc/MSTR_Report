@@ -14,7 +14,7 @@ source("C:\\Users\\JDRK\\Documents\\MSTR\\btc_reserveses.R")
 ```
 
 ```{r,out.width="40%",echo=FALSE,warning=FALSE,message=FALSE,fig.align='center'}
-knitr::include_graphics("C:\\Users\\JDRK\\Documents\\GitHub\\MSTR_Report\\Picture1.png")
+  knitr::include_graphics("C:\\Users\\JDRK\\Documents\\GitHub\\MSTR_Report\\Picture1.png")
 ```
 
 ```{r echo=FALSE,message=FALSE,warning=FALSE}
@@ -54,6 +54,12 @@ all_main
 
 ---
 
+
+---
+
+
+---
+
 ```{r echo=FALSE,message=FALSE,warning=FALSE,fig.height=4,fig.width=7.5,fig.align='center'}
 comp_countries_cht
 ```
@@ -70,6 +76,30 @@ etfs
 etfs_cht
 
 ```
+
+
+--- 
+
+---
+
+---
+
+
+<center><font size="+1" color="#660708">
+**GBTC Extracting BTC Sold ,Bought QTy & Amounts By Years**
+</font></center>
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+GBTC_Main
+```
+
+
+
+```{r echo=FALSE,message=FALSE,warning=FALSE}
+gbtc_gt
+```
+
+---
 
 ```{r echo=FALSE,message=FALSE,warning=FALSE}
 data.frame(Date= format(Sys.Date(),"%d %B %y"),BTC_Price=btc_pr,
