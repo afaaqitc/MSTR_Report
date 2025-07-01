@@ -48,16 +48,13 @@ price_class_purchases_cht
 ---
 
 ---
+ 
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE,fig.height=4.4,fig.width=9}
 all_main
 ```
 
 ---
-
-
----
-
 
 ---
 
@@ -82,6 +79,12 @@ etfs_cht
 --- 
 
 ---
+
+<center><font size="+1" color="#660708">
+**-------------------------------------------------------------------------------------------------------------------------------**
+</font></center>
+ 
+ ---
  
 <center><font size="+1" color="#660708">
 **Comparing Mircostrategy vs Top 2 USA Spot ETFs "IBIT & GBTC".**
