@@ -70,7 +70,7 @@ etfs
 
 ---
 
-```{r echo=FALSE,message=FALSE,warning=FALSE,fig.align='center',fig.width=7,fig.height=3.2}
+```{r echo=FALSE,message=FALSE,warning=FALSE,fig.align='center',fig.width=8,fig.height=3.2}
 etfs_cht
 
 ```
@@ -87,12 +87,12 @@ etfs_cht
  ---
  
 <center><font size="+1" color="#660708">
-**Comparing Mircostrategy vs Top 2 USA Spot ETFs "IBIT & GBTC".**
+**Comparing Mircostrategy vs Top 3 USA Spot ETFs "IBIT , FBTC & GBTC.**
 </font></center>
 
 
-```{r echo=FALSE,message=FALSE,warning=FALSE,fig.height=4,fig.width=12}
-mstr_top2etf_cht
+```{r echo=FALSE,message=FALSE,warning=FALSE,fig.align='center',fig.width=8,fig.height=3.2}
+mstr_top3etf_cht
 ```
 
 
