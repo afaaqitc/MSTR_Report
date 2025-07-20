@@ -7,7 +7,6 @@ output: html_document
 ```{r setup, include=FALSE,eval =TRUE}
 knitr::opts_chunk$set(echo = TRUE)
 
-
 ```
 
 ```{r echo=FALSE,message=FALSE,warning=FALSE}
@@ -118,7 +117,7 @@ ish_purchases_gt
 </font></center>
 
 ```{r echo=FALSE,message=FALSE,warning=FALSE}
-GBTC_Main
+ GBTC_Main
 ```
 
 
