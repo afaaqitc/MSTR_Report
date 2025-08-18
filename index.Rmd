@@ -10,12 +10,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r echo=FALSE,message=FALSE,warning=FALSE}
-source("C:\\Users\\JDRK\\Documents\\MSTR\\btc_reserveses.R")
+source("~/Documents/MSTR/btc_reserveses.R")
 ```
 
 
 ```{r,out.width="40%",echo=FALSE,warning=FALSE,message=FALSE,fig.align='center'}
- knitr::include_graphics("C:\\Users\\JDRK\\Documents\\GitHub\\MSTR_Report\\Picture1.png")
+ knitr::include_graphics("~/Documents/GitHub/MSTR_Report/Picture1.png")
 ```
 
 ```{r echo=FALSE,message=FALSE,warning=FALSE}
